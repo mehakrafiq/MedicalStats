@@ -1,6 +1,8 @@
+# Fall
+
 ## one_way_anova
 
-(4.82574790276262, 0.008115810254152204)
+(4.825747902762619, 0.008115810254152204)
 
 ## t_test
 
@@ -22,18 +24,18 @@ no_diabetes pre_diabetes    0.033 0.1371 -0.0076  0.0736  False
 ## covariance_analysis
 
                     sum_sq      df          F        PR(>F)
-C(no_diabetes)    0.271295     1.0   7.245741  7.167223e-03
-C(pre_diabetes)   0.000031     1.0   0.000830  9.770127e-01
-C(diabetes)       0.000456     1.0   0.012181  9.121306e-01
+C(no_diabetes)    0.198734     1.0   5.307769  2.133442e-02
+C(pre_diabetes)   0.001696     1.0   0.045302  8.314724e-01
+C(diabetes)       0.000604     1.0   0.016132  8.989439e-01
 Age               0.970519     1.0  25.920568  3.897258e-07
 Residual         73.573635  1965.0        NaN           NaN
 
 ## interaction_analysis
 
                     sum_sq      df          F        PR(>F)
-C(no_diabetes)    0.008189     1.0   0.218635  6.401336e-01
-C(pre_diabetes)   0.007906     1.0   0.211072  6.459795e-01
-C(diabetes)       0.000456     1.0   0.012176  9.121458e-01
+C(no_diabetes)    0.003948     1.0   0.105403  7.454747e-01
+C(pre_diabetes)   0.012335     1.0   0.329320  5.661252e-01
+C(diabetes)       0.000604     1.0   0.016126  8.989614e-01
 Age               0.970519     1.0  25.911570  3.915407e-07
 C(diabetes):Age   0.011907     1.0   0.317913  5.729287e-01
 Residual         73.561727  1964.0        NaN           NaN
@@ -80,13 +82,25 @@ pre_diabetes  1.0  1837.0  1.336032  0.247885
 
 ## visualize_tukey_results
 
+![visualize_tukey_results](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\visualize_tukey_results.png)
+
 ## plot_interaction_analysis
+
+![plot_interaction_analysis](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\plot_interaction_analysis.png)
 
 ## visualize_chi_square_results
 
+![visualize_chi_square_results](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\visualize_chi_square_results.png)
+
 ## visualize_relative_risk_results
+
+![visualize_relative_risk_results](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\visualize_relative_risk_results.png)
 
 ## visualize_odds_ratio_results
 
+![visualize_odds_ratio_results](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\visualize_odds_ratio_results.png)
+
 ## visualize_relative_risk_by_age_results
+
+![visualize_relative_risk_by_age_results](D:\OneDrive - National University of Sciences & Technology\Desktop\upwork\MedicalStats\Plots\visualize_relative_risk_by_age_results.png)
 
