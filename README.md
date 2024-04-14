@@ -1,4 +1,3 @@
-```markdown
 # MedicalStats
 
 ## Overview
@@ -12,6 +11,7 @@ MedicalStats is a project focused on medical statistical analysis using Python. 
 
 ## Installation
 Clone the repository to get started:
+
 ```
 git clone https://github.com/mehakrafiq/MedicalStats.git
 ```
@@ -31,4 +31,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 For more information or to send feedback, please contact the repository owner.
-```
